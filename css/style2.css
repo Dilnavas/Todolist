@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+h1{
+  font-family: 'Ranchers', cursive;
+}
+.container {
+
+  background-color: #f8efd4;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.todolist {
+  width: 500px;
+  height: 600px;
+  background-color: #ff414d;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.add-box{
+ width: 200px;
+ height: 30px;
+ margin: 20px auto;
+
+}
+.add-btn {
+  width: 100px;
+  height: 36px;
+  background-color: #931a25;
+  outline-style: none;
+  border: 0px;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+}
+/* .remove-all {
+  width: 100px;
+  height: 36px;
+  background-color: #931a25;
+  outline-style: none;
+  border: 0px;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+} */
+.todos {
+  background-color: #ff414d;
+}
+.remove-box{
+  width: 200px;
+  height: 30px;
+  margin: 10 auto;
+}
+.remove-btn{
+  width: 100px;
+  height: 36px;
+  background-color: #931a25;
+  margin: 20px auto;
+  outline-style: none;
+  border: 0px;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+}
+@media (max-width: 1024px) {
+  .container {
+    width: 500px;
+    height: 600px;
+  }
+  .todolist {
+    width: 400px;
+    height: 500px;
+  }
+}
